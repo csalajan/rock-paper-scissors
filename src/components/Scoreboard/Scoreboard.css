@@ -1,0 +1,39 @@
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid black;
+    max-width: 300px;
+    height: 150px;
+}
+
+.scoreboard .you, .scoreboard .rival {
+    position: absolute;
+    border: 1px solid black;
+    width: 100px;
+    padding: 5px;
+    background-color: #e25840;
+    height: 20px;
+    top: 65px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.scoreboard .you.winning, .scoreboard .rival.winning {
+    border-width: 2px;
+    background-color: green;
+}
+
+.scoreboard .you {
+    left: -50px;
+}
+
+.scoreboard .rival {
+    right: -50px;
+}
+
+.scoreboard .score {
+    font-size: 60px;
+}
