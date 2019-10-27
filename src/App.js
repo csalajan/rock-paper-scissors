@@ -1,5 +1,5 @@
 import React from 'react';
-import { Scoreboard, Choice, Choices, Game } from "./components";
+import { Game } from "./components";
 import './App.css';
 
 function App() {
